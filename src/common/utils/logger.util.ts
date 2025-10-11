@@ -4,7 +4,7 @@ export function logoShow() {
   // refer http://patorjk.com/software/taag/#p=testall&h=1&c=lua&f=AMC%20Tubes&t=zuelBookHelper
   return new Promise<void>((resolve, reject) => {
     figlet(
-      process.env.APP_NAME,
+      process.env.APP_NAME || 'myService',
       {
         font: 'Puffy',
         horizontalLayout: 'default',
