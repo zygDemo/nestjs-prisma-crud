@@ -8,7 +8,7 @@
   },
   "author": "wang",
   "license": "MIT",
-  "packageManager": "^pnpm@6.32.4",
+  "packageManager": "pnpm@^6.32.4",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.build.json",
     "clean": "rimraf dist",
